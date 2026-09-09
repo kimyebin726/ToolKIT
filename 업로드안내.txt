@@ -1,0 +1,38 @@
+업로드 안내
+====================
+
+본인 GitHub 계정에 새 저장소를 만들어 올리는 방법입니다.
+
+
+[1] 저장소 만들기
+  github.com 접속 → 우측 상단 + → New repository
+  - Repository name : toolkit-student (자유롭게 지정 가능)
+  - Public 선택
+  - Create repository
+
+
+[2] 파일 올리기
+  Add file → Upload files
+  이 폴더 안의
+    index.html      → 저장소 루트
+    assets 폴더     → 폴더째로 그대로
+  를 드래그한 뒤 Commit changes
+
+
+[3] GitHub Pages 켜기
+  Settings → Pages
+  - Source        : Deploy from a branch
+  - Branch        : main / (root)
+  - Save
+
+
+[4] 확인
+  2~3분 뒤 https://본인아이디.github.io/저장소이름/ 접속
+
+
+[주의]
+- 파일명은 절대 변경하지 마세요 (대소문자 포함)
+- assets 폴더 구조를 그대로 유지해야 음원과 GIF가 나옵니다
+- 반영이 안 되면 Actions 탭에서 "pages build and deployment" 가
+  초록색 체크로 끝났는지 확인하세요
+- 완료되면 생성된 주소를 공유해 주세요
