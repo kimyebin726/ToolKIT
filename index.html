@@ -483,8 +483,7 @@ typeNodes(text, tag) {
       closeLang: () => this.setState({ langOpen: false }),
       toggleLang: () => this.setState({ langOpen: !this.state.langOpen }),
       langs: [
-        ["KR", "한국어"], ["EN", "English"], ["ZH", "中文"], ["VI", "Tiếng Việt"], ["FR", "Français"],
-        ["JA", "日本語"], ["ES", "Español"], ["ID", "Bahasa Indonesia"], ["TH", "ไทย"], ["AR", "العربية"]
+        ["KR", "한국어"], ["EN", "English"], ["TH", "ไทย"]
       ].map(([code, label]) => {
         const on = this.state.lang === code;
         return {
